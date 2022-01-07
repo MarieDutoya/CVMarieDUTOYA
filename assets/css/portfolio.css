@@ -7,14 +7,22 @@ a{
 
 
 
-.btn-outline-dark {
-        color: #fd0000;
-        border: 50px;
-        padding-top: 48pt;
-        padding-bottom: 48pt;
-        padding-right: 20pt;
-        padding-left: 20pt;
-        margin-top: 20pt;
-        border-radius: 200px;
+.btn-pink {
+    background-color: #F5A4C0;
+    color: #4f353e;
+    border-color: #F75B92;
+    cursor: pointer;   
+    border-width: 2px;
+    border-color: #4f353e;;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin: 30px;
+    padding: 30px;
+    display: inline-block;
+    font-weight: bolder;
+    line-height:90px;
 
 }
