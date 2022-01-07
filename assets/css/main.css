@@ -1,22 +1,40 @@
-body, ul, li{
-    margin: 0;
-    padding: 0;
-    text-decoration:none;
-  }
-  body{
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+
+
+
+
+body{
     height: 1000px;
     background: white;
     text-decoration: none;
   }
-  ul{
+  
+.nav-menu{
     background: #4f353e;
     min-width: 30px;
     height: 2657px;
     box-sizing: border-box;
     position: fixed;
     text-decoration: none;
+ 
   }
-  li{
+ 
+ 
+ 
+.nav-item{
+   color: #F5A4C0;
+   text-decoration: none; 
+  
+ }
+ 
+.nav-item a:hover{
+    text-decoration: none;
+    color: #F75B92;
+ }
+ 
+ 
+.nav-item{
     list-style-type: none;
     padding: 10px 0 10px 0px;
     border-bottom: 1px solid #222;
@@ -25,25 +43,55 @@ body, ul, li{
     cursor: pointer;
     text-decoration: none;
   }
-  a{
-    color: #aaa;
+
+.nav-menu a{
+    color: #F5A4C0;
     text-decoration: none;
     padding: 10px 10px;
   }
-  li.active{
-    background: #222;
-    opacity: 1;
-  }
-  li:not(.active):hover {
-    background: #2c2c2c;
-  }
-  .imgLogo{
-    width: 30px;
+
+  
+.imgLogo{
+    width: 50px;
     opacity: 0.8;
+    margin-bottom: 70px;
+    margin-top: 10px;
   }
-  li:hover img, .active img{
-    opacity: 1;
-  }
-::-moz-progress-bar{
+
+.iconenavbar{
   color: #F5A4C0;
+  margin-right: 15px;
 }
+
+#left-container, h1{
+  font-family: 'Righteous';
+}
+
+#right-container{
+  font-family: 'Be Vietnam Pro';
+}
+
+.btn-pink {
+  background-color: #F5A4C0;
+  border: solid #4f353e;
+  color: #4f353e;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn-pink:hover {
+  color: #F75B92;
+}
+
+.btn-pink:focus {
+  box-shadow: 0 0 0 0.25rem #F5A4C0;
+}
+

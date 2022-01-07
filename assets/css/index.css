@@ -1,0 +1,10 @@
+  .name{
+    color:#4f353e ;
+    font-weight: bolder;
+    font-size: 120%;
+  }
+
+  .maphoto{
+    box-shadow:10px 5px 5px #F75B92;
+    align-items: center;
+  }

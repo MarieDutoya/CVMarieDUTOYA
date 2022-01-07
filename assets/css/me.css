@@ -1,0 +1,11 @@
+hr.hrMe {
+    border-top: 6px solid #F75B92;
+}
+
+#imgHobbies{
+    width:  150px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-right: 50px;
+}
