@@ -1,5 +1,20 @@
+h1{
+    color: #4f353e;
+    text-align: center;
+}
+
+
+
+
+
 hr.hrMe {
     border-top: 6px solid #F75B92;
+}
+
+.containerImg {
+    position: relative;
+    width:  150px;
+    height: 120px;
 }
 
 #imgHobbies{
@@ -7,5 +22,38 @@ hr.hrMe {
     height: 120px;
     object-fit: cover;
     border-radius: 30px;
-    margin-right: 50px;
+    border: 2px solid #F75B92;
 }
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F75B92;
+    overflow: hidden;
+    width: 150px;
+    height: 120px;
+    transform: scale(0);
+    transition: .3s ease;
+    border-radius: 30px;
+    margin-left: 12px;
+  }
+  
+  .containerImg:hover .overlay {
+    transform: scale(1);
+  }
+  
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  .text {
+    color: #4f353e;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+  }
